@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python carrotCrawlling.py
 ```
 
-> ⚠ 지역/키워드는 코드 내에서 직접 설정하실 수 있어요.
+> ⚠ 지역/키워드는 GUI 내에서 직접 설정하실 수 있어요.
 
 ---
 
