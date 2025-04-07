@@ -1,7 +1,6 @@
-# 🧲 당근마켓 중고 물품 크롤러
-
-키워드와 지역을 기준으로 당근마켓의 중고 물품 정보를 수집하는 Python 크롤러입니다.  
-빠르게 원하는 정보만 추려보고 싶은 분들을 위한 미니 자동화 도구예요.
+# 🥕 당근마켓 중고 물품 크롤러
+키워드와 지역을 기준으로 당근마켓의 중고 물품 정보를 수집하는 Python 크롤러입니다.
+빠르게 전국매물을 검색할 수 있는 도구에요. 실제 중고매입업 하시는 분들께 판매된 프로그램입니다 😮
 
 ---
 
@@ -21,10 +20,10 @@
 ## 🚀 사용 방법
 
 ```bash
-git clone https://github.com/your-username/daangn-crawler.git
-cd daangn-crawler
+git clone https://github.com/Cherryshine/CarrotFinder/
+cd CarrotFinder
 pip install -r requirements.txt
-python crawler.py
+python carrotCrawlling.py
 ```
 
 > ⚠ 지역/키워드는 코드 내에서 직접 설정하실 수 있어요.
@@ -40,7 +39,7 @@ python crawler.py
 
 ---
 
-## 📸 예시 출력
+## 📸 예시 출력 (실제는 tkinter 기반 GUI 형태로 출력됩니다)
 
 | 제목             | 가격       | 지역         | 링크                     |
 |------------------|------------|--------------|--------------------------|
@@ -56,11 +55,10 @@ python crawler.py
 
 ---
 
-## 🙋🏻‍♂️ 만든 사람
-
-- **이름**: 홍길동  
-- **연락처**: hong@example.com  
-- **포트폴리오**: [hongdev.tistory.com](https://hongdev.tistory.com)
+## 🙋🏻‍♂️ Copyright
+- **이름:** 김지수
+- **연락처:** hi.im.cherryshine@gmail.com
+- **해당 프로그램의 상업적 사용을 금합니다.**
 
 ---
 
