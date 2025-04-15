@@ -2,8 +2,8 @@ from cryptography.fernet import Fernet
 import base64
 
 def generate_license_key(plan):
-    # 고정된 Fernet 키 생성 (실제 배포 시 이 키를 변경하세요)
-    key = b'dL-KXsbXFQGheP6ckh1OlZE4YWxOGxjqh0ZsO-2JYpM='  # 올바른 형식의 Fernet 키
+
+    key =   # 올바른 형식의 Fernet 키
     cipher = Fernet(key)
     encrypted = cipher.encrypt(plan.encode())
     return base64.b64encode(encrypted).decode()
